@@ -28,8 +28,6 @@ All commands are terminal commands unless specified otherwise.
 > yarn dev
 ```
 
-**Note**: If `yarn dev` complains about permissions, you might want to do `sudo chmod +x ./watcher` so that the `watcher` file is set to be executable by you.
-
 ### Where to put all my styles?
 
 In the `./styles/` folder.

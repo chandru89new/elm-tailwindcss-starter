@@ -22,6 +22,8 @@ type Msg
 
 
 init =
+    let _ = Debug.log "works"
+    in
     1
 
 
