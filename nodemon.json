@@ -1,15 +1,17 @@
 {
   "watch": [
     "src",
+    "styles",
     "tailwind.config.js",
     "postcss.config.js",
-    "src",
-    "styles",
     "package.json"
   ],
   "ignore": [
     "build",
-    "elm-stuff"
+    "elm-stuff",
+    "node_modules",
+    "android",
+    "ios"
   ],
-  "ext": "elm, css, json"
+  "ext": "elm, css, json, js"
 }
